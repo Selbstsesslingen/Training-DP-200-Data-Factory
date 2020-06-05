@@ -1,0 +1,30 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "de-data-factory-84"
+		},
+		"AzureSynapseAnalyticsLinkedService_connectionString": {
+			"value": ""
+		},
+		"awdlsstudde_LinkedService_accountKey": {
+			"value": ""
+		},
+		"AzureDatabricksLinkedService_accessToken": {
+			"value": ""
+		},
+		"HTTPSourceMovies_properties_typeProperties_url": {
+			"value": "https://raw.githubusercontent.com/djpmsft/adf-ready-demo/master/moviesDB.csv"
+		},
+		"awdlsstudde_LinkedService_properties_typeProperties_url": {
+			"value": "https://awdlsstudde.dfs.core.windows.net"
+		},
+		"containerUri": {
+			"value": ""
+		},
+		"containerSasToken": {
+			"value": ""
+		}
+	}
+}
