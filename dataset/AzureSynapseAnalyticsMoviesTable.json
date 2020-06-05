@@ -1,0 +1,16 @@
+{
+	"name": "AzureSynapseAnalyticsMoviesTable",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureSynapseAnalyticsLinkedService",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "AzureSqlDWTable",
+		"schema": [],
+		"typeProperties": {
+			"schema": "dbo",
+			"table": "Ratings"
+		}
+	}
+}
